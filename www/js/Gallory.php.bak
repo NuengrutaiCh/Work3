@@ -1,0 +1,11 @@
+<div class="list">
+
+    <a ng-repeat="list in datalist" class="item item-thumbnail-left" >
+      <img src="{{list.pic}}">
+      <h2>"{{list.fname}}"</h2>
+      <p>"{{list.lname}}"</p>
+    </a>
+
+    ...
+
+</div>

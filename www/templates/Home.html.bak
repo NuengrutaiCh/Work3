@@ -1,0 +1,65 @@
+<div class="tabs-striped tabs-top tabs-background-positive tabs-color-light">
+
+    <div class="tabs">
+      <a ui-sref="Home.html" class="tab-item active">
+
+        <i class="icon ion-home"></i>
+        Test
+      </a>
+      <a class="tab-item" >
+        <i class="icon ion-star"></i>
+        Favorites
+      </a>
+      <a class="tab-item">
+        <i class="icon ion-gear-a"></i>
+        Settings
+      </a>
+    </div>
+  </div>
+  <div class="tabs-striped tabs-color-assertive">
+    <div class="tabs">
+      <a class="tab-item active">
+        <i class="icon ion-home"></i>
+        Test
+      </a>
+      <a class="tab-item">
+        <i class="icon ion-star"></i>
+        Favorites
+      </a>
+      <a class="tab-item">
+        <i class="icon ion-gear-a"></i>
+        Settings
+      </a>
+    </div>
+  </div>
+
+
+<div class="bar bar-header">
+ 
+  <div class="h1 title">Home</div>
+
+</div>
+
+<div class="list has-subheader">
+
+    <a ui-sref="History" class="item item-thumbnail-left" href="History.html">
+      <img src="img/History1.jpg">
+      <h2>History</h2>
+      <p>Nuengrutai  Chamnarn</p>
+    </a>
+
+	<a ui-sref="menu" class="item item-thumbnail-left" >
+      <img src="img/History4.jpg">
+      <h2>Activities</h2>
+      <p></p>
+    </a>
+
+	<a class="item item-thumbnail-left">
+      <img src="img/History3.jpg">
+      <h2>Gallery</h2>
+      <p></p>
+    </a>
+
+
+</div>
+

@@ -1,0 +1,24 @@
+<body>
+
+<div class="bar bar-header item-input-inset">
+  <label class="item-input-wrapper">
+    <i class="icon ion-ios-search placeholder-icon"></i>
+    <input type="search" placeholder="Search">
+  </label>
+  <button class="button button-clear">
+    Cancel
+  </button>
+</div>
+
+<div class="list">
+
+    <a ng-repeat="list in datalist" class="item item-thumbnail-left" >
+      <img src="{{list.pic}}">
+      <h2>"{{list.fname}}"</h2>
+      <p>"{{list.lname}}"</p>
+    </a>
+
+
+
+</div>
+</body>
